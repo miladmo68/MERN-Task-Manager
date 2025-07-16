@@ -2,7 +2,7 @@
 # MERN Task Manager Portfolio Project
 
 A modern full-stack task manager built with the MERN stack and styled with TailwindCSS and daisyUI.
-
+<img width="2561" height="1187" alt="Task-Manager" src="https://github.com/user-attachments/assets/3f260312-48ca-4aa5-b411-107fe36a9d1d" />
 ---
 
 ## 🔧 Tech Stack
@@ -25,7 +25,8 @@ A modern full-stack task manager built with the MERN stack and styled with Tailw
 ```
 mern-portfolio-project/
 ├── front/      # React frontend (Vite)
-└── back/       # Express + Mongo backend
+└── back/       # Express + Mongo 
+backend
 ```
 
 ---
