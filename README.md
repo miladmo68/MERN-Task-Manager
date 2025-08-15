@@ -115,6 +115,11 @@ Once both servers are running:
 
 ---
 
+<p align="center">
+  <b>👨‍💻 Author: Milad Mohammadi</b><br>
+  🌐 <a href="https://miladweb.com">Website</a> • 💼 <a href="https://linkedin.com/in/miladmo68">LinkedIn</a> • 🐙 <a href="https://github.com/miladmo68">GitHub</a>
+</p>
+
 ## 📸 Preview
 
 Coming soon: Add a screenshot or link to deployed demo.
