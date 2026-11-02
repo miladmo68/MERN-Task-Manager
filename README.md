@@ -1,127 +1,82 @@
+<div align="center">
 
-# MERN Task Manager Portfolio Project
+# 🗂️ MERN Task Manager
 
-A modern full-stack task manager built with the MERN stack and styled with TailwindCSS and daisyUI.
-<img width="2561" height="1187" alt="Task-Manager" src="https://github.com/user-attachments/assets/3f260312-48ca-4aa5-b411-107fe36a9d1d" />
----
+A full-stack task manager built with MongoDB, Express, React and Node.js.
 
-## 🔧 Tech Stack
+<a href="https://github.com/miladmo68/MERN-Task-Manager"><img src="https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source code"></a>
+<a href="https://miladweb.com"><img src="https://img.shields.io/badge/Portfolio-miladweb.com-1E3A8A?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Portfolio"></a>
 
-**Front-end**
-- React 18 (with Vite)
-- TailwindCSS 3
-- DaisyUI
-- Axios
+</div>
 
-**Back-end**
-- Node.js & Express
+<p align="center">
+  <img src="./.github/preview.jpg" alt="MERN Task Manager screenshot" width="100%" />
+</p>
+
+## ✨ Features
+
+- Create, update and delete tasks
+- Express REST API
 - MongoDB with Mongoose
-- dotenv, CORS
+- Tailwind CSS and daisyUI
 
----
+## 🛠️ Tech Stack
 
-## 📁 Folder Structure
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) ![daisyUI](https://img.shields.io/badge/daisyUI-5A0EF8?style=for-the-badge&logo=daisyui&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
-```
-mern-portfolio-project/
-├── front/      # React frontend (Vite)
-└── back/       # Express + Mongo 
-backend
-```
-
----
-
-## ✅ Prerequisites
-
-- Node.js ≥ 18 installed
-- MongoDB (running locally or MongoDB Atlas)
-
----
+> [!NOTE]
+> This project needs its own backend, database or API keys, so it runs locally rather than as a static demo.
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
+**Prerequisites:** [Node.js](https://nodejs.org/) 18 or newer · A MongoDB database (local or MongoDB Atlas)
+
+**Clone**
 
 ```bash
-git clone <your-repo-url>
-cd mern-portfolio-project
+git clone https://github.com/miladmo68/MERN-Task-Manager.git
+cd MERN-Task-Manager
 ```
 
-### 2. Set up the Back-end
+**back**
 
 ```bash
 cd back
-cp .env.example .env  # Replace with your Mongo URI if needed
-npm install           # Install dependencies
-npm run dev           # Start the Express server (default: http://localhost:5000)
+npm install
+npm run dev
 ```
 
-### 3. Set up the Front-end
+**front**
 
 ```bash
-cd ../front
-npm install           # Install dependencies
-npm run dev           # Start Vite dev server (default: http://localhost:5173)
+cd front
+npm install
+npm run dev
 ```
 
----
+### Environment variables
 
-## 🧪 Environment Variables
+Create a `.env` file (or `.env.local` for Next.js) with:
 
-In the `/back` folder, create a `.env` file:
-
-```
-MONGO_URI=mongodb://localhost:27017/mern_portfolio_tasks
-PORT=5000
+```env
+MONGO_URI=
+PORT=
 ```
 
----
-
-## 🔒 .gitignore
-
-Add the following to `.gitignore` in both `front/` and `back/`:
+## 📁 Project Structure
 
 ```
-node_modules/
-.env
-dist/
+MERN-Task-Manager/
+├── back/
+└── front/
 ```
 
----
+## 👤 Author
 
-## 🌐 Visit App
+**Milad Mohammadi** — Frontend-Focused Full-Stack Developer, Toronto 🇨🇦
 
-Once both servers are running:
+[![Website](https://img.shields.io/badge/Website-miladweb.com-FF6A00?style=flat-square&logo=googlechrome&logoColor=white)](https://miladweb.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-miladmo68-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/miladmo68/)
+[![GitHub](https://img.shields.io/badge/GitHub-miladmo68-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/miladmo68)
 
-- Front-end: http://localhost:5173
-- Back-end API: http://localhost:5000/api/tasks
-
----
-
-## 🛰 Deployment Tips
-
-- Front-end → Vercel or Netlify
-- Back-end → Render, Fly.io, or Railway
-- Make sure to set environment variables in deployment dashboards
-
----
-
-## 🙌 Features
-
-- Create & delete tasks
-- Responsive UI with daisyUI
-- RESTful API
-- MongoDB for persistence
-
----
-
-<p align="center">
-  <b>👨‍💻 Author: Milad Mohammadi</b><br>
-  🌐 <a href="https://miladweb.com">Website</a> • 💼 <a href="https://linkedin.com/in/miladmo68">LinkedIn</a> • 🐙 <a href="https://github.com/miladmo68">GitHub</a>
-</p>
-
-## 📸 Preview
-
-Coming soon: Add a screenshot or link to deployed demo.
-
-Happy coding!
+<p align="center"><sub>If you like this project, consider giving it a ⭐</sub></p>
